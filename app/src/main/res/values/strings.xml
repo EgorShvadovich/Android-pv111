@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Android-111</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="main_page_title">Знайомство з Андроїд</string>
+    <string name="main_calc_button">Калькулятор</string>
+    <string name="main_game_button">Свайпи. Гра</string>
+    <string name="main_rates_button">Інтернет. Курси валют</string>
+    <string name="main_chat_button">Обмін даними. Чат</string>
+    <string name="main_anim_button">Анімації</string>
+    <string name="main_tic_tac_toe_button">Хрестики нолики</string>
+
+    <!-- region CALC ACTIVITY -->
+    <string name="calc_page_title">Калькулятор</string>
+    <string name="calc_btn_percent">%</string>
+    <string name="calc_btn_ce">CE</string>
+    <string name="calc_btn_c">C</string>
+    <string name="calc_btn_backspace">\u232B</string>
+    <string name="calc_btn_inverse">\u00B9/\u2093</string>
+    <string name="calc_btn_square">x\u00B2</string>
+    <string name="calc_btn_sqrt">\u221A\u2093\u0304</string>
+    <string name="calc_btn_divide">\u00F7</string>
+    <string name="calc_btn_multiply">\u2715</string>
+    <string name="calc_btn_minus">\u2014</string>
+    <string name="calc_btn_plus">\uFF0B</string>
+    <string name="calc_btn_pm">\u00B1</string>
+    <string name="calc_btn_comma">,</string>
+    <string name="calc_btn_equal">\uFF1D</string>
+    <string name="calc_zero_division">DIV BY 0</string>
+    <string name="calc_zero_division_toast">Division by zero</string>
+    <string name="calc_btn_0">\uA668</string>
+    <string name="calc_btn_1">1</string>
+    <string name="calc_btn_2">2</string>
+    <string name="calc_btn_3">3</string>
+    <string name="calc_btn_4">4</string>
+    <string name="calc_btn_5">5</string>
+    <string name="calc_btn_6">6</string>
+    <string name="calc_btn_7">7</string>
+    <string name="calc_btn_8">8</string>
+    <string name="calc_btn_9">9</string>
+    <!-- endregion -->
+
+    <!-- GAME -->
+    <string name="game_final_title">Гру завершено</string>
+    <string name="game_final_message">Бажаєте зіграти ще раз?</string>
+    <string name="game_final_positive">Повторити</string>
+    <string name="game_final_negative">Вийти</string>
+    <string name="game_time">TIME:</string>
+    <string name="game_time_best">BEST:</string>
+    <string name="game_score">SCORE:</string>
+    <string name="game_score_best">BEST:</string>
+    <string name="game_time_template">%d c</string>
+
+    <string name="tic_tac_toe_page_title">TicTacToe</string>
+    <string name="tic_tac_toe_time_template">%d c</string>
+    <string name="tic_tac_toe_ad_title">%s Won</string>
+    <string name="tic_tac_toe_ad_message">Wana play again?</string>
+    <string name="tic_tac_toe_pb">Yes</string>
+    <string name="tic_tac_toe_nb">No</string>
+
+    <!-- CHAT -->
+    <string name="chat_name_label">Ім\'я</string>
+    <string name="chat_message_line1">%s %s</string>
+    <string name="chat_no_author_alert">Заповніть поле \'Автор\'</string>
+    <string name="chat_no_message_alert">Введіть повідомлення</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="calc_btn" >
+        <item name="backgroundTint">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/calc_primary_color</item>
+    </style>
+
+    <style name="calc_operation_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_oper_btn_shape</item>
+    </style>
+
+    <style name="calc_digit_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_digit_btn_shape</item>
+    </style>
+
+    <style name="calc_equal_btn" parent="calc_btn">
+        <item name="android:background">@drawable/calc_equal_btn_shape</item>
+        <item name="android:textColor">@color/calc_background</item>
+    </style>
+
+    <style name="tic_tac_toe_btn" >
+        <item name="backgroundTint">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/tic_tac_toe_primary_color</item>
+    </style>
+    <style name="tic_tac_toe_field_btn" parent="tic_tac_toe_btn">
+        <item name="android:background">@drawable/tic_tac_toe_btn_shape</item>
+    </style>
+    <style name="tic_tac_toe_field_btn_x" parent="tic_tac_toe_field_btn">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/tic_tac_toe_X_score_color</item>
+    </style>
+    <style name="tic_tac_toe_field_btn_o" parent="tic_tac_toe_field_btn">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/tic_tac_toe_O_score_color</item>
+    </style>
+
+    <style name="game_labels">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
